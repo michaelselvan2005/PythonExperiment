@@ -37,3 +37,9 @@ loaded_model=pickle.load(open("finalized_model_linear.sav",'rb'))
 result=loaded_model.predict([[int(input("Enter the number of Years"))]])
 
 print("Result !!!!!",result)
+
+# Input is 0 that is Bias (Origin)
+#Enter the number of Years0
+#C:\Users\micha\anaconda3-new\envs\pythonexp\lib\site-packages\sklearn\base.py:465: UserWarning: X does not have valid feature names, but LinearRegression was fitted with feature names
+#  warnings.warn(
+#Result !!!!! [[26777.3913412]]
